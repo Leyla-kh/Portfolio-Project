@@ -35,7 +35,7 @@ h2 {
 .btn-branding {
   background-color: var(--primary-color);
   color: white;
-  padding: 10px;
+  padding: 10px 20px;
 }
 .btn-branding-outline {
   color: var(--primary-color);
@@ -50,6 +50,25 @@ p {
   line-height: 1.5;
   font-weight: normal;
 }
+
+.content-container {
+  padding: 40px 10px;
+}
+.content {
+  margin: 10px;
+}
+.content h1 {
+  font-size: 60px;
+}
+.content h2 {
+  font-family: "League Spartan", sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+}
+.content p {
+  font-size: 19px;
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 50px;
@@ -72,7 +91,7 @@ p {
     padding: 0px;
     text-align: center;
   }
+  .content {
+    text-align: center;
+  }
 }
-
-/*font-family: 'Abril Fatface', cursive;
-font-family: 'League Spartan', sans-serif; */
