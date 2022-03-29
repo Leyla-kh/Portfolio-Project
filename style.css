@@ -65,6 +65,12 @@ p {
   font-size: 25px;
   font-weight: bold;
 }
+.content h3 {
+  font-family: "League Spartan", sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 1.5;
+}
 .content p {
   font-size: 19px;
 }
