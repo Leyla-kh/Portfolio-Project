@@ -52,7 +52,7 @@ p {
 }
 
 .content-container {
-  padding: 40px 10px;
+  padding: 30px 10px;
 }
 .content {
   margin: 10px;
@@ -73,6 +73,16 @@ p {
 }
 .content p {
   font-size: 19px;
+}
+
+nav img {
+  max-height: 40px;
+}
+nav li {
+  list-style: none;
+  display: inline;
+  padding: 10px;
+  line-height: 2.5;
 }
 
 @media (max-width: 900px) {

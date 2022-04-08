@@ -31,11 +31,23 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="content-container container mt-5">
+    <div class="content container">
+      <nav class="d-flex justify-content-between mb-5">
+        <img class="d-none d-lg-flex" src="img/logo.png" alt="logo">
+        <img class="d-lg-none" src="img/logo-small.jpg" alt="small-logo">
+        <ul>
+          <li>Home</li>
+          <li>About</li>
+          <li>Work</li>
+          <li>Contact</li>
+
+        </ul >
+      </nav>
+      <div class="content-container">
       <h1 class="mb-5">Let's get in touch</h1>
       <div class="row">
-        <div class="col-lg-8">
-          <form class="form-control mb-5">
+        <div class="col-lg-8 ">
+          <form class="form-control mb-5 ">
             <div class="mb-3">
               <label for="emailFormControl" class="form-label"
                 >Your Email</label
@@ -67,6 +79,7 @@
             >
           </p>
         </div>
+      </div>
       </div>
     </div>
   </body>
