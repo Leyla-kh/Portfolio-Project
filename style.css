@@ -41,6 +41,11 @@ h2 {
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
   padding: 10px;
+  transition: all 100ms ease-in-out;
+}
+.btn-branding-outline:hover {
+  color: white;
+  background-color: var(--primary-color);
 }
 .project-description {
   padding: 80px 40px;
@@ -79,10 +84,46 @@ nav img {
   max-height: 40px;
 }
 nav li {
+  font-size: 20px;
   list-style: none;
   display: inline;
   padding: 10px;
   line-height: 2.5;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+}
+nav li.active a {
+  color: var(--primary-color);
+}
+.footer-box {
+  background-color: var(--second-color);
+  border-radius: 5px;
+  padding: 30px 30px;
+  margin: auto 150px;
+}
+.footer-box h2 {
+  font-size: 50px;
+  line-height: 1.5;
+}
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 30px;
+}
+.social-link a {
+  line-height: 1;
+  font-size: 20px;
+  background-color: var(--second-color);
+  border-radius: 50%;
+  margin: 15px;
+  padding: 20px;
+  transition: all 100ms ease-in-out;
+}
+.social-link a:hover {
+  background-color: var(--primary-color);
+  color: white;
 }
 
 @media (max-width: 900px) {

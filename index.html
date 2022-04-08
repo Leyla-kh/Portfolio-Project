@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Frontend developer</title>
 
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
@@ -31,11 +31,32 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <nav
+      class="d-flex justify-content-between mb-5 content-container container"
+    >
+      <a href="/" title="home page link"
+        ><img class="d-none d-lg-flex" src="img/logo.png" alt="logo" />
+        <img class="d-lg-none" src="img/logo-small.jpg" alt="small-logo" />
+      </a>
+      <ul>
+        <li class="active">
+          <a href="/index.html" title="home page link">Home</a>
+        </li>
+        <li><a href="/about.html" title="about page link">About</a></li>
+        <li><a href="/work.html" title="work page link">Work</a></li>
+        <li><a href="/contact.html" title="contact page link">Contact</a></li>
+      </ul>
+    </nav>
     <div class="hero-homepage">
       <p>Hello , I am</p>
       <h1>Leyla Kheyri</h1>
       <h3 class="opacity-75">Frontend Developer base in Iran</h3>
-      <a href="#" class="btn btn-branding mt-5">contact me</a>
+      <a
+        href="/contact.html"
+        title="contact page link"
+        class="btn btn-branding mt-5"
+        >contact me</a
+      >
     </div>
     <p class="text-center m-5 opacity-75">
       Featured Project which my best projects be choice to show
@@ -43,7 +64,11 @@
     <div class="container">
       <div class="row mb-3">
         <div class="col d-none d-lg-block">
-          <img class="img-fluid" src="img/yogurt.png" />
+          <img
+            class="img-fluid"
+            src="img/yogurt.png"
+            alt="yougurt project picture"
+          />
         </div>
         <div class="col">
           <div class="project-description mb-5">
@@ -54,7 +79,12 @@
               they live in Bookmarksgrove right at the coast of the Semantics, a
               large language ocean. A small river named Duden flows by
             </p>
-            <a href="#" class="btn btn-branding-outline">Learn more</a>
+            <a
+              href="/work.html"
+              title="work page link"
+              class="btn btn-branding-outline"
+              >Learn more</a
+            >
           </div>
         </div>
       </div>
@@ -68,16 +98,29 @@
               they live in Bookmarksgrove right at the coast of the Semantics, a
               large language ocean. A small river named Duden flows by
             </p>
-            <a href="#" class="btn btn-branding-outline">Learn more</a>
+            <a
+              href="/work.html"
+              title="work page link"
+              class="btn btn-branding-outline"
+              >Learn more</a
+            >
           </div>
         </div>
         <div class="col d-none d-lg-block">
-          <img class="img-fluid" src="img/weather.png" />
+          <img
+            class="img-fluid"
+            src="img/weather.png"
+            alt="weather app project picture"
+          />
         </div>
       </div>
       <div class="row mb-3">
         <div class="col d-none d-lg-block">
-          <img class="img-fluid" src="img/dictionary.png" />
+          <img
+            class="img-fluid"
+            src="img/dictionary.png"
+            alt="dictionery project picture"
+          />
         </div>
         <div class="col">
           <div class="project-description mb-5">
@@ -88,10 +131,64 @@
               they live in Bookmarksgrove right at the coast of the Semantics, a
               large language ocean. A small river named Duden flows by
             </p>
-            <a href="#" class="btn btn-branding-outline">Learn more</a>
+            <a
+              href="/work.html"
+              class="btn btn-branding-outline"
+              title="work page link"
+              >Learn more</a
+            >
           </div>
         </div>
       </div>
     </div>
+    <footer>
+      <div class="d-none d-lg-flex justify-content-between footer-box">
+        <div>
+          <h2>Work Inquiry</h2>
+          <p class="ms-1">Let's work together</p>
+        </div>
+        <div>
+          <a
+            class="btn btn-branding mt-5 me-5"
+            href="/contact.html"
+            title="contact page link"
+            >contact me</a
+          >
+        </div>
+      </div>
+
+      <p class="text-center m-5">
+        <a
+          class="email-link"
+          href="mailto:Leyla.kh@gmail.com"
+          title="email link"
+          >Leyla.kh@gmail.com</a
+        >
+      </p>
+      <div class="social-link text-center">
+        <a href="https://www.instagram.com/Leyla.kh"
+          ><i
+            class="fab fa-instagram"
+            title="inatagram link"
+            target="_blank"
+          ></i
+        ></a>
+        <a href="https://www.github.com/Leyla.kh"
+          ><i class="fab fa-github" title="github link" target="_blank"></i
+        ></a>
+        <a href="https://www.twitter.com/Leyla.kh"
+          ><i class="fab fa-twitter" title="twitter link" target="_blank"></i
+        ></a>
+      </div>
+      <p class="text-center m-5">
+        ✌️ This website was coded by Leyla Kheyri, and is
+        <a
+          href="https://github.com/Leyla-kh/Portfolio-Project"
+          title="github link"
+          target="_blank"
+          >open-sourced</a
+        >
+      </p>
+    </footer>
   </body>
 </html>
